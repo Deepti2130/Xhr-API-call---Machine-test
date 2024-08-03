@@ -1,0 +1,56 @@
+body{
+    background-color:#f3eeee; ;
+    position: relative;
+}
+
+.postcard h3{
+    height:40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.loader{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: (0,0,0,0.2);
+}
+
+.img-holder{
+    background-image: url(../images/inner-default-banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.formcss{
+    background-color: #f3eeee;
+    border-radius: 15px;
+    box-shadow:4px 4px #899ff6;
+}
+
+.btninfo{
+    background-color: #1F51FF;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btnrem{
+    background-color: #FF3131;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+   
+}
+
+/* #postcontainer{
+    margin-top:430px;
+    z-index: 0;
+} */
